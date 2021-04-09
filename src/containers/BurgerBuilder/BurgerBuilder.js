@@ -33,7 +33,7 @@ class BurgerBuilder extends Component {
             return sum + el;
         }, 0);
         this.setState({purchaseable: sum > 0});
-        console.log(sum);
+        // console.log(sum);
     }
     
 
